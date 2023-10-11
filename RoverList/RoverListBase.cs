@@ -52,7 +52,7 @@ public abstract class RoverListBase<T>
     /// Returns the element T in the specified position or null if does not exist
     /// </summary>
     /// <param name="position">One based position of the node to retrieve</param>
-    /// <returns>The desired node or null if inexistent</returns>
+    /// <returns>The desired node - Throw IndexOutOfRangeException if not within range</returns>
     public abstract T ElementAt(int position);
 
     /// <summary>

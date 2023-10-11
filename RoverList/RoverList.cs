@@ -37,6 +37,9 @@ public class RoverList<T> : RoverListBase<T>
     /// <returns></returns>
     private Node NodeAt(int position)
     {
+        if (position >= Count)
+            throw new IndexOutOfRangeException();
+
         // FIXME: Returning a forced null value
         return null!;
     }
