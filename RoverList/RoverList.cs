@@ -7,7 +7,7 @@ public class RoverList<T> : RoverListBase<T>
         Count = 0;
     }
 
-    public override int Count { get; protected set;  }
+    public sealed override int Count { get; protected set;  }
 
     public override void Add(T data)
     {
@@ -46,6 +46,13 @@ public class RoverList<T> : RoverListBase<T>
 
     public override void ListNodes()
     {
+        Current = Head;
+
+        while (Current != null)
+        {
+            // Print Current.Data
+            Current = Current.Next;
+        }
     }
 
     public override bool RemoveAt(int position)
