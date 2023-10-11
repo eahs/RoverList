@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-
-namespace RoverList;
+﻿namespace RoverList;
 
 public class RoverList<T> : RoverListBase<T>
 {
@@ -36,6 +29,12 @@ public class RoverList<T> : RoverListBase<T>
         throw new NotImplementedException();
     }
 
+    /// <summary>
+    /// Returns the node at a given position
+    /// NOTE: This method isn't in the base class but can be VERY helpful to create.
+    /// </summary>
+    /// <param name="position"></param>
+    /// <returns></returns>
     private Node NodeAt(int position)
     {
         // FIXME: Returning a forced null value
