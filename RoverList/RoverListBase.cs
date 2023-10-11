@@ -17,6 +17,7 @@ public abstract class RoverListBase<T>
     public abstract int Count
     {
         get;
+        protected set;
     }
 
     /// <summary>

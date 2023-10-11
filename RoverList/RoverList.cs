@@ -7,7 +7,7 @@ public class RoverList<T> : RoverListBase<T>
         Count = 0;
     }
 
-    public override int Count { get; }
+    public override int Count { get; protected set;  }
 
     public override void Add(T data)
     {
