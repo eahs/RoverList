@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverList", "RoverList\RoverList.csproj", "{3914E30C-6B95-4333-9F95-B9CD7B8375BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverList", "RoverList\RoverList.csproj", "{A806A526-E474-44C8-A8F1-71E021995EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3914E30C-6B95-4333-9F95-B9CD7B8375BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3914E30C-6B95-4333-9F95-B9CD7B8375BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3914E30C-6B95-4333-9F95-B9CD7B8375BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3914E30C-6B95-4333-9F95-B9CD7B8375BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A806A526-E474-44C8-A8F1-71E021995EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A806A526-E474-44C8-A8F1-71E021995EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A806A526-E474-44C8-A8F1-71E021995EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A806A526-E474-44C8-A8F1-71E021995EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BD1405F-EBCD-4290-B31D-4B40DD6701AD}
 	EndGlobalSection
 EndGlobal
